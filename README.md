@@ -2,7 +2,6 @@
 
 Name: Yuehua Deng
 
-# BIOT6900 Module 2 Assignment 2
 ## Multi-Omics Target Discovery in Ovarian Cancer
 
 ### Disease
