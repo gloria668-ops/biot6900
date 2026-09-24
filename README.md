@@ -53,11 +53,6 @@ The three omics layers were reduced to one row per gene.
 - Proteomics: gene, protein effect, protein p-value
 - Genomics: gene, mutation frequency
 
-## Output Files
-
-- `BIOT6900_Module2_Starter_OV.ipynb`
-- `targets_ov.csv`
-
 ## Notes
 
 The transcriptomic and proteomic datasets come from different cohorts and are therefore integrated at the gene level rather than at the matched-sample level.
