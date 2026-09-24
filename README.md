@@ -73,5 +73,3 @@ The top-ranked genes were exported to:
 The transcriptomic and proteomic datasets come from different cohorts and are therefore integrated at the gene level rather than at the matched-sample level.
 
 The CPTAC ovarian RNA tumor-only expression matrix was explored during data selection but was not used in the final transcriptomic scoring because it did not provide a tumor-vs-normal effect and p-value.
-- `BIOT6900_Module2_Assignment2_OV.ipynb`
-- `report.pdf`
