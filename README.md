@@ -53,16 +53,6 @@ The three omics layers were reduced to one row per gene.
 - Proteomics: gene, protein effect, protein p-value
 - Genomics: gene, mutation frequency
 
-Gene identifiers were harmonized to gene symbols, and the three layers were joined by gene.
-
-RNA-protein concordance was defined by direction agreement between RNA log2 fold change and protein effect.
-
-A multi-evidence score was calculated using equal weights across transcriptomic, proteomic, and genomic evidence.
-
-The top-ranked genes were exported to:
-
-`targets_ov.csv`
-
 ## Output Files
 
 - `BIOT6900_Module2_Starter_OV.ipynb`
