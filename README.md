@@ -2,7 +2,7 @@
 
 Name: Yuehua Deng
 
-## Multi-Omics Target Discovery in Ovarian Cancer
+## Module 2 Multi-Omics Target Discovery in Ovarian Cancer
 
 ### Disease
 Ovarian cancer
@@ -58,3 +58,7 @@ The three omics layers were reduced to one row per gene.
 The transcriptomic and proteomic datasets come from different cohorts and are therefore integrated at the gene level rather than at the matched-sample level.
 
 The CPTAC ovarian RNA tumor-only expression matrix was explored during data selection but was not used in the final transcriptomic scoring because it did not provide a tumor-vs-normal effect and p-value.
+
+## Module 1 Assignment
+Parts A–C completed.
+Part D will be covered in the next class.
