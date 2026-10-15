@@ -21,8 +21,7 @@ All top 15 targets were successfully mapped to the reviewed human proteome. The 
 ### Disease
 Ovarian cancer
 
-## Data Sources
-
+### Data Sources
 ### 1. Transcriptomics
 - Dataset: E-GEOD-40595
 - Data type: Differential gene expression
