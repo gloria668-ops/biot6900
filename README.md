@@ -2,7 +2,21 @@
 
 Name: Yuehua Deng
 
-## Module 2 Multi-Omics Target Discovery in Ovarian Cancer
+## Module 3 
+
+Name: Yuehua Deng
+
+Disease: OV
+
+Files included:
+- BIOT6900_Module3_Assignment.ipynb
+- targets_ov_w3.csv
+- Module 3 Assignment — Computational Lab 3.pdf
+
+Notes:
+All top 15 targets were successfully mapped to the reviewed human proteome. The notebook ran successfully and the Module 3 analysis was completed.
+
+## Module 2 
 
 ### Disease
 Ovarian cancer
