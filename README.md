@@ -1,5 +1,9 @@
 # BIOT 6900 coursework
 Name: Yuehua Deng
+# Module 5 Assignment
+## Research gene:CYP2C19
+This repository contains my completed Module 5 variant interpretation assignment.
+The submitted files include the completed Jupyter Notebook, the classified variant CSV file, and the report PDF.
 ## Module 4 Assignment
 Targets: PGR and BCHE
 This repository contains my Module 4 assignment for structure prediction and structure-based druggability analysis.
