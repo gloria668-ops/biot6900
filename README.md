@@ -3,14 +3,17 @@ Name: Yuehua Deng
 # Module 5 Assignment
 ## Research gene:CYP2C19
 This repository contains my completed Module 5 variant interpretation assignment.
-The submitted files include the completed Jupyter Notebook, the classified variant CSV file, and the report PDF.
+The submitted files include:
+- the completed Jupyter Notebook
+- the classified variant CSV file
+- the report PDF.
 ## Module 4 Assignment
 Targets: PGR and BCHE
 This repository contains my Module 4 assignment for structure prediction and structure-based druggability analysis.
 Files:
-BIOT6900_Module4_Assignment.ipynb
-structure_assessment_ov.csv — summary of the structural assessment
-Module 4 Assignment.pdf
+- BIOT6900_Module4_Assignment.ipynb
+- structure_assessment_ov.csv — summary of the structural assessment
+- Module 4 Assignment.pdf
 ## Module 3 
 Disease: OV
 Files included:
@@ -61,6 +64,6 @@ Ovarian cancer
 
 The CPTAC ovarian RNA tumor-only expression matrix was explored during data selection but was not used in the final transcriptomic scoring because it did not provide a tumor-vs-normal effect and p-value.
 
-## Module 1 Assignment
+## Module 1
 Parts A–C completed.
 Part D will be covered in the next class.
