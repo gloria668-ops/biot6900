@@ -1,3 +1,0 @@
-gene,uniprot,module2_rank,mean_pLDDT,pct_below_50,n_domains,inter_domain_PAE,pdb_id,rmsd_confident,best_pocket_score,best_pocket_verdict,druggability_call
-PGR,P06401,2,56.15,63.1,2,24.848255002326663,1A28,0.95,0.834,keep,Structure supports a small-molecule pocket
-BCHE,P06276,13,93.36,1.2,2,18.5475155729393,6QAA,2.08,0.956,keep,Structure supports a small-molecule pocket
