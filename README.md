@@ -1,10 +1,12 @@
 # BIOT 6900 coursework
 Name: Yuehua Deng
+### Update Note
+The course assignment files have been updated and re-uploaded to GitHub, including revised notebooks, reports, and supporting documents.
 ## Module 6
 ### Description
 This assignment examines the portability of polygenic risk scores (PRS) across ancestry groups using real 1000 Genomes genotype data and a published Alzheimer's disease PRS (PGS000334).
 The analysis includes allele harmonization, PRS calculation, ancestry-specific score distributions, high-risk classification thresholds, AUC comparisons, and calibration.
-### Data Sources
+### Data SourcesUpdate Note
 - genotypes.csv – Genotype data
 - variants.csv – Variant information
 - meta.csv – Sample metadata and ancestry information
