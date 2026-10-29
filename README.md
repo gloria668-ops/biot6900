@@ -10,9 +10,8 @@ The analysis includes allele harmonization, PRS calculation, ancestry-specific s
 - meta.csv – Sample metadata and ancestry information
 - score.csv – PRS scoring information (PGS000334, Alzheimer's disease)
 ### Note on Data Compatibility：
-My selected disease for the course is ovarian cancer (OV). I downloaded an ovarian cancer PRS from the PGS Catalog (PGS000048) and compared its variants with the provided genotype panel.
-The comparison showed 0 overlapping variants, so the ovarian cancer PRS could not be calculated using the supplied files.
-Therefore, I completed the notebook and report using the Alzheimer's disease score (PGS000334) included in the provided dataset, as specified in the graded starter notebook. The results illustrate PRS portability across ancestry groups and should not be interpreted as ovarian cancer risk predictions.
+My selected disease is ovarian cancer (OV). I tested seven ovarian cancer PRS scoring files from the PGS Catalog (PGS000048, PGS000068, PGS000069, PGS000082, PGS000158, PGS000351, and PGS000352). None of these scores had overlapping rsIDs with the 22 variants in the provided genotype panel.
+Therefore, I completed the PRS portability analysis using the supplied Alzheimer's disease score (PGS000334). The results demonstrate the analysis workflow but should not be interpreted as ovarian cancer PRS results.
 ## Module 5
 ### Research gene:CYP2C19
 This repository contains my completed Module 5 variant interpretation assignment.
