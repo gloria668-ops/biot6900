@@ -1,10 +1,20 @@
 # BIOT 6900 coursework
 Name: Yuehua Deng
-# Module 5 Assignment
-## Research gene:CYP2C19
+## Module 6
+### Project Description
+In this assignment, I calculated a polygenic risk score (PRS) using real genotype data and evaluated its portability across five ancestry groups: EUR, AFR, EAS, SAS, and AMR.
+I performed allele harmonization, calculated PRS distributions, evaluated discrimination using AUC and calibration, and compared age-only with age-plus-PRS models.
+### Data Sources
+Course-provided data files: 
+- genotypes.csv, variants.csv, score.csv, and meta.csv.
+The phenotype labels were simulated rather than obtained from real patient diagnoses.
+### Issues Encountered
+None
+## Module 5
+### Research gene:CYP2C19
 This repository contains my completed Module 5 variant interpretation assignment.
 The submitted files include the completed Jupyter Notebook, the classified variant CSV file, and the report PDF.
-## Module 4 Assignment
+## Module 4 
 Targets: PGR and BCHE
 This repository contains my Module 4 assignment for structure prediction and structure-based druggability analysis.
 Files:
@@ -60,7 +70,6 @@ Ovarian cancer
   https://www.linkedomics.org/data_download/CPTAC-pancan-OV/
 
 The CPTAC ovarian RNA tumor-only expression matrix was explored during data selection but was not used in the final transcriptomic scoring because it did not provide a tumor-vs-normal effect and p-value.
-
-## Module 1 Assignment
+## Module 1 
 Parts A–C completed.
 Part D will be covered in the next class.
