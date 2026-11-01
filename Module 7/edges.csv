@@ -1,0 +1,63 @@
+src,rel,dst,pvalue,source
+RUNX1T1,ASSOCIATED_WITH,Ovarian cancer,,GWAS
+PGR,ASSOCIATED_WITH,Ovarian cancer,,GWAS
+DMD,ASSOCIATED_WITH,Ovarian cancer,4e-07,GWAS
+SYNPO2,ASSOCIATED_WITH,Ovarian cancer,2e-08,GWAS
+MAOA,ASSOCIATED_WITH,Ovarian cancer,,GWAS
+PROS1,ASSOCIATED_WITH,Ovarian cancer,,GWAS
+SVEP1,ASSOCIATED_WITH,Ovarian cancer,,GWAS
+TTC3,ASSOCIATED_WITH,Ovarian cancer,,GWAS
+COL3A1,ASSOCIATED_WITH,Ovarian cancer,,GWAS
+ABCA8,ASSOCIATED_WITH,Ovarian cancer,,GWAS
+NBEA,ASSOCIATED_WITH,Ovarian cancer,,GWAS
+PODN,ASSOCIATED_WITH,Ovarian cancer,,GWAS
+BCHE,ASSOCIATED_WITH,Ovarian cancer,,GWAS
+DTNA,ASSOCIATED_WITH,Ovarian cancer,,GWAS
+GREB1,ASSOCIATED_WITH,Ovarian cancer,,GWAS
+Ovarian cancer,HAS_PHENOTYPE,Abdominal distention,,
+Ovarian cancer,HAS_PHENOTYPE,Ascites,,
+Ovarian cancer,HAS_PHENOTYPE,Abdominal pain,,
+Ovarian cancer,HAS_PHENOTYPE,Pelvic pain,,
+Ovarian cancer,HAS_PHENOTYPE,Early satiety,,
+Ovarian cancer,HAS_PHENOTYPE,Pollakisuria,,
+Ovarian cancer,HAS_PHENOTYPE,Constipation,,
+Ovarian cancer,HAS_PHENOTYPE,Fatigue,,
+Ovarian cancer,HAS_PHENOTYPE,Weight loss,,
+Ovarian cancer,HAS_PHENOTYPE,Back pain,,
+PGR,PARTICIPATES_IN,Estrogen-dependent gene expression,,
+GREB1,PARTICIPATES_IN,Estrogen-dependent gene expression,,
+PGR,PARTICIPATES_IN,ESR-mediated signaling,,
+GREB1,PARTICIPATES_IN,ESR-mediated signaling,,
+PGR,PARTICIPATES_IN,Signaling by Nuclear Receptors,,
+GREB1,PARTICIPATES_IN,Signaling by Nuclear Receptors,,
+DMD,PARTICIPATES_IN,Non-integrin membrane-ECM interactions,,
+DTNA,PARTICIPATES_IN,Non-integrin membrane-ECM interactions,,
+COL3A1,PARTICIPATES_IN,Non-integrin membrane-ECM interactions,,
+BCHE,PARTICIPATES_IN,Neurotransmitter clearance,,
+MAOA,PARTICIPATES_IN,Neurotransmitter clearance,,
+DMD,PARTICIPATES_IN,Formation of the dystrophin-glycoprotein complex (DGC),,
+DTNA,PARTICIPATES_IN,Formation of the dystrophin-glycoprotein complex (DGC),,
+Mifepristone,TARGETS,PGR,,
+Medroxyprogesterone,TARGETS,PGR,,
+Rivastigmine,TARGETS,BCHE,,
+Phenelzine,TARGETS,MAOA,,
+Tranylcypromine,TARGETS,MAOA,,
+rs143607818,OCCURS_IN,RUNX1T1,,
+rs1042838,OCCURS_IN,PGR,,
+rs398123999,OCCURS_IN,DMD,,
+rs1472066,OCCURS_IN,SYNPO2,,
+rs6323,OCCURS_IN,MAOA,,
+rs6122,OCCURS_IN,PROS1,,
+rs111245230,OCCURS_IN,SVEP1,,
+rs138008526,OCCURS_IN,TTC3,,
+rs1800255,OCCURS_IN,COL3A1,,
+rs148226092,OCCURS_IN,ABCA8,,
+rs773958544,OCCURS_IN,NBEA,,
+rs899972,OCCURS_IN,PODN,,
+rs1803274,OCCURS_IN,BCHE,,
+rs139872140,OCCURS_IN,DTNA,,
+rs200602887,OCCURS_IN,GREB1,,
+Endometrial cancer,HAS_PHENOTYPE,Pelvic pain,,
+Endometrial cancer,HAS_PHENOTYPE,Ascites,,
+ERBB2,ASSOCIATED_WITH,Endometrial cancer,,GWAS
+Trastuzumab,TARGETS,ERBB2,,

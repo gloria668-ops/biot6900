@@ -2,6 +2,18 @@
 Name: Yuehua Deng
 ### Update Note
 The course assignment files have been updated and re-uploaded to GitHub, including revised notebooks, reports, and supporting documents.
+## Module 7
+### Description
+This project builds a knowledge graph for ovarian cancer (OV) using 15 candidate genes from my Module 2 multi-omics analysis. The graph contains 55 nodes and 62 edges, connecting genes, diseases, pathways, phenotypes, drugs, and variants.
+### Results
+PageRank analysis identified PGR and MAOA as the highest-ranked genes, followed by BCHE.
+### Files
+- Jupyter Notebook — graph construction and analysis
+- Report PDF — results and discussion
+- Graph PNG — knowledge graph visualization
+- Nodes CSV and Edges CSV — graph data
+### Notes
+AI was used to assist with data integration and debugging. Results were checked against the original datasets.
 ## Module 6
 ### Description
 This assignment examines the portability of polygenic risk scores (PRS) across ancestry groups using real 1000 Genomes genotype data and a published Alzheimer's disease PRS (PGS000334).
@@ -12,6 +24,7 @@ The analysis includes allele harmonization, PRS calculation, ancestry-specific s
 - meta.csv – Sample metadata and ancestry information
 - score.csv – PRS scoring information (PGS000334, Alzheimer's disease)
 ### Note on Data Compatibility：
+Replacing the original Module 6 dataset with ovarian cancer (OV) data.
 My selected disease is ovarian cancer (OV). I tested seven ovarian cancer PRS scoring files from the PGS Catalog (PGS000048, PGS000068, PGS000069, PGS000082, PGS000158, PGS000351, and PGS000352). None of these scores had overlapping rsIDs with the 22 variants in the provided genotype panel.
 Therefore, I completed the PRS portability analysis using the supplied Alzheimer's disease score (PGS000334). The results demonstrate the analysis workflow but should not be interpreted as ovarian cancer PRS results.
 ## Module 5
