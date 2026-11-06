@@ -16,17 +16,31 @@ PageRank analysis identified PGR and MAOA as the highest-ranked genes, followed 
 AI was used to assist with data integration and debugging. Results were checked against the original datasets.
 ## Module 6
 ### Description
-This assignment examines the portability of polygenic risk scores (PRS) across ancestry groups using real 1000 Genomes genotype data and a published Alzheimer's disease PRS (PGS000334).
-The analysis includes allele harmonization, PRS calculation, ancestry-specific score distributions, high-risk classification thresholds, AUC comparisons, and calibration.
-### Data SourcesUpdate Note
-- genotypes.csv – Genotype data
-- variants.csv – Variant information
-- meta.csv – Sample metadata and ancestry information
-- score.csv – PRS scoring information (PGS000334, Alzheimer's disease)
+This project examines the portability of an ovarian cancer polygenic risk score (PRS) across five ancestry groups: AFR, EUR, EAS, SAS, and AMR.
+The analysis includes allele harmonization, PRS calculation, score distributions, risk thresholds, AUC comparisons, calibration, and age-plus-PRS prediction.
+### Data Sources
+Genotype data: 1000 Genomes Project Phase 3 (GRCh37)
+PRS weights: PGS Catalog, PGS000048
+Dataset: 1,271 female samples and 17 PRS variants
+Ancestry: Real population metadata from 1000 Genomes
+Age and ovarian cancer phenotype: Simulated for this assignment
+The genotype data and PRS weights are real, but the ovarian cancer disease labels are simulated. Therefore, the results should not be interpreted as clinically validated predictions。
+### Main Results
+All 17 PRS variants were successfully harmonized.
+Overall AUC: 0.701
+EUR AUC: 0.727
+SAS AUC: 0.650
+Age-only AUC: 0.567
+Age + PRS AUC: 0.717
+The analysis demonstrates differences in PRS distributions and simulated predictive performance across ancestry groups.
+### Files
+- BIOT6900_Module6_Part3_Graded_Starter_copy.ipynb — Analysis notebook
+- Module 6 Assignment - New.pdf — Report and interpretation
+- data/ov/ — Input data files, when available
+### Limitations
+Because age and disease outcomes were simulated, the AUC and calibration results do not establish real-world ovarian cancer prediction accuracy. Independent validation using real patient data from diverse ancestry groups is necessary before clinical application.
 ### Note on Data Compatibility：
 Replacing the original Module 6 dataset with ovarian cancer (OV) data.
-My selected disease is ovarian cancer (OV). I tested seven ovarian cancer PRS scoring files from the PGS Catalog (PGS000048, PGS000068, PGS000069, PGS000082, PGS000158, PGS000351, and PGS000352). None of these scores had overlapping rsIDs with the 22 variants in the provided genotype panel.
-Therefore, I completed the PRS portability analysis using the supplied Alzheimer's disease score (PGS000334). The results demonstrate the analysis workflow but should not be interpreted as ovarian cancer PRS results.
 ## Module 5
 ### Research gene:CYP2C19
 This repository contains my completed Module 5 variant interpretation assignment.
