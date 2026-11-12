@@ -2,7 +2,7 @@
 Name: Yuehua Deng
 ### Update Note
 The course assignment files have been updated and re-uploaded to GitHub, including revised notebooks, reports, and supporting documents.
-## Module 9 — Clinical NLP (Ovarian Cancer)
+## Module 9
 This project uses clinical NLP to analyze 400 synthetic ovarian cancer patient records and predict in-hospital mortality. The analysis includes feature extraction, five-fold cross-validation, AUROC, and data leakage detection.
 ### Results:
 - All features AUROC: 0.959
