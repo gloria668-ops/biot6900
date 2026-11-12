@@ -2,6 +2,15 @@
 Name: Yuehua Deng
 ### Update Note
 The course assignment files have been updated and re-uploaded to GitHub, including revised notebooks, reports, and supporting documents.
+## Module 9 — Clinical NLP (Ovarian Cancer)
+This project uses clinical NLP to analyze 400 synthetic ovarian cancer patient records and predict in-hospital mortality. The analysis includes feature extraction, five-fold cross-validation, AUROC, and data leakage detection.
+### Results:
+- All features AUROC: 0.959
+- Declared leakage removed: 0.852
+- All leakage removed: 0.784
+- Hidden leakage identified: renal_replacement
+### Limitation: 
+All patient data and outcomes are simulated. The results are for educational purposes and are not clinically validated.
 ## Module 7
 ### Description
 This project builds a knowledge graph for ovarian cancer (OV) using 15 candidate genes from my Module 2 multi-omics analysis. The graph contains 55 nodes and 62 edges, connecting genes, diseases, pathways, phenotypes, drugs, and variants.
