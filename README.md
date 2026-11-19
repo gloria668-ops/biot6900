@@ -2,6 +2,18 @@
 Name: Yuehua Deng
 ### Update Note
 The course assignment files have been updated and re-uploaded to GitHub, including revised notebooks, reports, and supporting documents.
+## Module 10 Assignment
+### Description
+Fine-tune DenseNet121 on PathMNIST normal and tumour tissue images. Test whether a grey square becomes a shortcut using Grad-CAM, occlusion, and a clean control.
+### Files
+- `BIOT6900_Module10_Assignment.ipynb`: code, results, and interpretation.
+- `Module 10 Assignment.pdf`: report.
+### Results
+- Clean model test accuracy: **93.2%**.
+- Confounded model tumour recall: **99.7% with the square**, **37.3% without**.
+- Flip rate among initially correct normal predictions: **1.8% clean**, **75.9% confounded**.
+### Notes
+Adapted from the course’s real-model notebook. Original code names containing “ink” refer to the grey square in this experiment.
 ## Module 9
 This project uses clinical NLP to analyze 400 synthetic ovarian cancer patient records and predict in-hospital mortality. The analysis includes feature extraction, five-fold cross-validation, AUROC, and data leakage detection.
 ### Results:
@@ -11,6 +23,19 @@ This project uses clinical NLP to analyze 400 synthetic ovarian cancer patient r
 - Hidden leakage identified: renal_replacement
 ### Limitation: 
 All patient data and outcomes are simulated. The results are for educational purposes and are not clinically validated.
+## Module 8
+### Description
+This project studies EPCAM expression in breast cancer using single-cell RNA-seq and spatial transcriptomics.
+### Data
+- Single-cell data: CELLxGENE Census
+- Spatial data: 10x Genomics Visium breast cancer tissue
+### Methods
+We used Scanpy, Harmony, scVI, and Squidpy for data processing, batch integration, clustering, and spatial analysis.
+### Files
+-  Notebook (`.ipynb`): Analysis code, figures, and results
+- `Module 8 Assignment.pdf`: Final report
+### Notes
+I initially tried to run the notebook on Explorer, but encountered package installation and environment issues. I completed the analysis locally in VS Code using an Anaconda environment (`biot6900`).
 ## Module 7
 ### Description
 This project builds a knowledge graph for ovarian cancer (OV) using 15 candidate genes from my Module 2 multi-omics analysis. The graph contains 55 nodes and 62 edges, connecting genes, diseases, pathways, phenotypes, drugs, and variants.
