@@ -23,19 +23,20 @@ This project uses clinical NLP to analyze 400 synthetic ovarian cancer patient r
 - Hidden leakage identified: renal_replacement
 ### Limitation: 
 All patient data and outcomes are simulated. The results are for educational purposes and are not clinically validated.
-## Module 8
-### Description
-This project studies EPCAM expression in breast cancer using single-cell RNA-seq and spatial transcriptomics.
-### Data
-- Single-cell data: CELLxGENE Census
-- Spatial data: 10x Genomics Visium breast cancer tissue
-### Methods
-We used Scanpy, Harmony, scVI, and Squidpy for data processing, batch integration, clustering, and spatial analysis.
-### Files
--  Notebook (`.ipynb`): Analysis code, figures, and results
-- `Module 8 Assignment.pdf`: Final report
-### Notes
-I initially tried to run the notebook on Explorer, but encountered package installation and environment issues. I completed the analysis locally in VS Code using an Anaconda environment (`biot6900`).
+## Module 8 — Single-Cell and Spatial Omics Analysis
+### Overview
+This module integrates **single-cell RNA sequencing and spatial transcriptomics** to investigate cellular heterogeneity and gene expression patterns in ovarian cancer (OV). The analysis focuses on **COL3A1**, a candidate gene identified in earlier target-prioritization analyses.
+### Analysis and Results
+- Analyzed ovarian cancer single-cell data from CELLxGENE Census.
+- Retained 17,947 cells from 9 donors after quality control.
+- Compared Harmony and scVI for batch integration.
+- Identified fibroblasts as the main cell population expressing COL3A1.
+- Analyzed 3,455 spatial spots from the 10x Genomics ovarian cancer dataset.
+- Identified 7 spatial clusters and examined COL3A1 tissue distribution.
+### Key Finding
+COL3A1 showed strong expression in fibroblasts and regionally variable expression within ovarian cancer tissue, suggesting a potential association with the tumor microenvironment.
+### Limitations
+Single-cell annotations and spatial spot resolution limit precise identification of tissue boundaries and cellular interactions.
 ## Module 7
 ### Description
 This project builds a knowledge graph for ovarian cancer (OV) using 15 candidate genes from my Module 2 multi-omics analysis. The graph contains 55 nodes and 62 edges, connecting genes, diseases, pathways, phenotypes, drugs, and variants.
@@ -75,17 +76,21 @@ The analysis demonstrates differences in PRS distributions and simulated predict
 Because age and disease outcomes were simulated, the AUC and calibration results do not establish real-world ovarian cancer prediction accuracy. Independent validation using real patient data from diverse ancestry groups is necessary before clinical application.
 ### Note on Data Compatibility：
 Replacing the original Module 6 dataset with ovarian cancer (OV) data.
-## Module 5
-### Research gene:CYP2C19
-This repository contains my completed Module 5 variant interpretation assignment.
-### Description:
-In this module, I analyzed CYP2C19 variants using CADD, REVEL, AlphaMissense, and AlphaGenome Atlas. I evaluated prediction-tool coverage, applied an allele-frequency filter, attempted CADD calibration, and examined discordant prediction results.
-### Data Sources:
-MyVariant.info and ClinVar.
-gnomAD.
-CADD, REVEL, and AlphaMissense.
-AlphaGenome Atlas
-The submitted files include the completed Jupyter Notebook, the classified variant CSV file, and the report PDF.
+## Module 5 — Pharmacogenomics and Variant Interpretation
+### Overview
+This module focuses on **variant interpretation and pharmacogenomics** to evaluate the potential functional and clinical significance of genetic variants. **PGR**, a candidate target identified in the earlier ovarian cancer (OV) analysis, was selected for investigation.
+### Analysis and Results
+- Analyzed 91 PGR variants using CADD, REVEL, AlphaMissense, and AlphaGenome.
+- Examined allele frequencies, pathogenicity predictions, and score calibration.
+- Identified 21 benign/likely benign variants and 70 variants of uncertain significance (VUS).
+- Successfully scored 91 variants with AlphaGenome.
+- Identified 15 variants with discordant predictions.
+### Output
+`pgx_classified_PGR.csv` — PGR variant classification results.
+BIOT6900_Module5_Assignment OV.ipynb
+Module 4 Assignment OV.pdf
+## Limitations
+The reference variant rs1042838 was not retrieved, and pathogenicity calibration was limited by the absence of pathogenic reference variants. The results are exploratory and do not establish clinical drug recommendations.
 ## Module 4 
 Targets: PGR and BCHE
 This repository contains my Module 4 assignment for structure prediction and structure-based druggability analysis.
